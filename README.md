@@ -1,2 +1,2 @@
 # AccessoDiretto
-compito scolastico
+compito scolastico sulla lettura binaria di un file
