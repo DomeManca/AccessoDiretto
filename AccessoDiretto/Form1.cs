@@ -32,10 +32,6 @@ namespace AccessoDiretto
         {
             label4.Text = (Ricerca("veneto_verona.csv", textBox1.Text));
         }
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            textBox1.Text = listBox1.Text;
-        }
         static string Ricerca(string filename, string loc)
         {
             string a = "";
