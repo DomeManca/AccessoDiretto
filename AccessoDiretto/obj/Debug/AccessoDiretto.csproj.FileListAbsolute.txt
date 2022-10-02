@@ -20,3 +20,14 @@ C:\Users\domym\source\repos\AccessoDiretto\AccessoDiretto\obj\Debug\AccessoDiret
 C:\Users\domym\source\repos\AccessoDiretto\AccessoDiretto\obj\Debug\AccessoDiretto.csproj.CoreCompileInputs.cache
 C:\Users\domym\source\repos\AccessoDiretto\AccessoDiretto\obj\Debug\AccessoDiretto.exe
 C:\Users\domym\source\repos\AccessoDiretto\AccessoDiretto\obj\Debug\AccessoDiretto.pdb
+C:\Users\manca.19321\Source\Repos\AccessoDiretto1\AccessoDiretto\bin\Debug\AccessoDiretto.exe.config
+C:\Users\manca.19321\Source\Repos\AccessoDiretto1\AccessoDiretto\bin\Debug\AccessoDiretto.exe
+C:\Users\manca.19321\Source\Repos\AccessoDiretto1\AccessoDiretto\bin\Debug\AccessoDiretto.pdb
+C:\Users\manca.19321\Source\Repos\AccessoDiretto1\AccessoDiretto\obj\Debug\AccessoDiretto.csproj.AssemblyReference.cache
+C:\Users\manca.19321\Source\Repos\AccessoDiretto1\AccessoDiretto\obj\Debug\AccessoDiretto.csproj.SuggestedBindingRedirects.cache
+C:\Users\manca.19321\Source\Repos\AccessoDiretto1\AccessoDiretto\obj\Debug\AccessoDiretto.Form1.resources
+C:\Users\manca.19321\Source\Repos\AccessoDiretto1\AccessoDiretto\obj\Debug\AccessoDiretto.Properties.Resources.resources
+C:\Users\manca.19321\Source\Repos\AccessoDiretto1\AccessoDiretto\obj\Debug\AccessoDiretto.csproj.GenerateResource.cache
+C:\Users\manca.19321\Source\Repos\AccessoDiretto1\AccessoDiretto\obj\Debug\AccessoDiretto.csproj.CoreCompileInputs.cache
+C:\Users\manca.19321\Source\Repos\AccessoDiretto1\AccessoDiretto\obj\Debug\AccessoDiretto.exe
+C:\Users\manca.19321\Source\Repos\AccessoDiretto1\AccessoDiretto\obj\Debug\AccessoDiretto.pdb

@@ -18,23 +18,9 @@ namespace AccessoDiretto
         {
             InitializeComponent();
         }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("info");
-        }
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            string a = textBox1.Text;
-            int na = a.Length;
-
-        }
         private void button1_Click(object sender, EventArgs e)
         {
             label4.Text = (Ricerca("veneto_verona.csv", textBox1.Text));
-        }
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            textBox1.Text = listBox1.Text;
         }
         static string Ricerca(string filename, string loc)
         {
