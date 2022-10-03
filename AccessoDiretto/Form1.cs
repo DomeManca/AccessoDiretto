@@ -22,7 +22,7 @@ namespace AccessoDiretto
         {
             label4.Text = (Ricerca("veneto_verona.csv", textBox1.Text));
         }
-        static string Ricerca(string filename, string loc)
+        static int RicercaPOS(string filename, string loc)
         {
             string a = "";
             var file = new FileStream(filename, FileMode.Open, FileAccess.ReadWrite);// accesso al file binario 
@@ -57,12 +57,35 @@ namespace AccessoDiretto
 
             } while (i <= j && pos == -1);
 
+            file.Close();
+            if (pos != -1)
+            {
+                MessageBox.Show($"{pos + 1}", "La posizione è:");
+                return pos;
+            }
+            else
+            {
+                MessageBox.Show("Non esiste questa località");
+                return pos;
+            }
+        }
+        static string Ricerca(string filename, string loc)
+        {
+            string a = "";
+            int m = RicercaPOS(filename, loc);
+            var file = new FileStream(filename, FileMode.Open, FileAccess.ReadWrite);// accesso al file binario 
+            BinaryReader reader = new BinaryReader(file);
+            int lunghezzariga = 528;
+            
+            file.Seek(m * lunghezzariga, SeekOrigin.Begin);
+            a = Encoding.ASCII.GetString(reader.ReadBytes(lunghezzariga));
+            string result = FromString(a, 0);
+
             string fine;
 
-            if (pos != -1)
+            if (m != -1)
             { 
                 fine = FromString(a, 7);
-                MessageBox.Show($"{pos+1}", "La posizione è:");
             }
             else
             {
