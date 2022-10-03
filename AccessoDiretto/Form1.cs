@@ -62,6 +62,7 @@ namespace AccessoDiretto
             if (pos != -1)
             { 
                 fine = FromString(a, 7);
+                MessageBox.Show($"{pos+1}", "La posizione è:");
             }
             else
             {
