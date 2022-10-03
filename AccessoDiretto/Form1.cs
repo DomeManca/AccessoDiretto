@@ -27,7 +27,6 @@ namespace AccessoDiretto
             string a = "";
             var file = new FileStream(filename, FileMode.Open, FileAccess.ReadWrite);// accesso al file binario 
             BinaryReader reader = new BinaryReader(file);
-            BinaryWriter writer = new BinaryWriter(file);
             int righetot = Convert.ToInt32(file.Length);//byte totali
             int lunghezzariga = 528;
             righetot /= 528; // per ottenere il numero di righe 
@@ -59,6 +58,7 @@ namespace AccessoDiretto
             } while (i <= j && pos == -1);
 
             string fine;
+
             if (pos != -1)
             { 
                 fine = FromString(a, 7);
